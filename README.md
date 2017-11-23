@@ -8,3 +8,5 @@ Basic application using [Parallec](https://github.com/eBay/parallec) to smoke te
 2. Open Runner.Java and run the program as java appication.
 3. Output is submitted to the console and log files per request (/userdata/tasklogs/*.*)
 ```
+
+To en/disable logs, go to <b>AbstractRequestProcessor</b> and update the configurations in the static block.
