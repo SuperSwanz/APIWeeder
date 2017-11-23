@@ -1,4 +1,4 @@
-package com.api.weeder.client;
+package com.api.weeder.processor;
 
 import java.net.MalformedURLException;
 import java.net.URL;

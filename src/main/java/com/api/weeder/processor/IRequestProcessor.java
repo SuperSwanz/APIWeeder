@@ -1,4 +1,4 @@
-package com.api.weeder.client;
+package com.api.weeder.processor;
 
 public interface IRequestProcessor {
 	public void doGet();

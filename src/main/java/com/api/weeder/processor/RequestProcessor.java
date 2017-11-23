@@ -1,4 +1,4 @@
-package com.api.weeder.client;
+package com.api.weeder.processor;
 
 import java.net.MalformedURLException;
 import java.util.List;
@@ -35,6 +35,7 @@ public class RequestProcessor extends AbstractRequestProcessor {
 				for(Entry<String, List<String>> entry: responseHeaders.entrySet()){
                     System.out.println(entry.getKey() + "::" + entry.getValue());
                 }
+				responseContext.put(res.getHost(), responseHeaders.size());
 			}
 		})
 		.setHttpMeta(httpMeta);
